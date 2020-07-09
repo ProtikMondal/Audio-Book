@@ -1,8 +1,8 @@
 import pyttsx3
 import PyPDF2
 
-harryPotter = open('oop.pdf', 'rb')
-pdfReader = PyPDF2.PdfFileReader(harryPotter)
+book = open('oop.pdf', 'rb')
+pdfReader = PyPDF2.PdfFileReader(book)
 pages = pdfReader.numPages
 print(pages)
 
